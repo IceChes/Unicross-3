@@ -20,6 +20,4 @@ This project is IN PROGRESS and subject to change at any time without notice.
 # Coming eventually:
 - Assembly guide
 - BOM
-- Assembly STEP
-- 3D printing guide
 - Klipper configs
