@@ -6,23 +6,23 @@ HEADER;
 /* OPTION: using custom renumber hook */
 
 FILE_DESCRIPTION(
-/* description */ ('STEP AP242',
+/* description */ ('STEP AP242 Edition 2',
 'CAx-IF Rec.Pracs.---Representation and Presentation of Product Manufa
 cturing Information (PMI)---4.0---2014-10-13',
-'CAx-IF Rec.Pracs.---3D Tessellated Geometry---0.4---2014-09-14','2;1'),
-
+'CAx-IF Rec.Pracs.---3D Tessellated Geometry---0.4---2014-09-14','2;1',
+'CAx-IF Rec.Pracs.---User Defined Attributes---1.5---2016-08-15'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '681bea4c9417a05d63d3716d',
-/* time_stamp */ '2025-05-07T23:18:36Z',
+/* name */ 'Base and Z Axis - Back Right Bottom Plate',
+/* time_stamp */ '2026-01-10T06:34:50Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'ONSHAPE BY PTC INC, 1.197',
+/* originating_system */ 'ONSHAPE BY PTC INC, 1.209',
 /* authorisation */ '  ');
 
-FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));
+FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 3 1 4 }'));
 ENDSEC;
 
 DATA;
@@ -5131,7 +5131,7 @@ DATA;
 #5094=CARTESIAN_POINT('',(-0.04605,0.2765,0.002));
 #5095=CARTESIAN_POINT('',(-0.04605,0.2765,0.002));
 #5096=CARTESIAN_POINT('',(-0.04405,0.2765,0.002));
-#5097=CARTESIAN_POINT('',(-0.1045,0.2655,-0.557882449586537));
+#5097=CARTESIAN_POINT('',(-0.1045,0.2655,-0.557865581675267));
 #5098=CARTESIAN_POINT('',(-0.1045,0.2655,-0.003));
 #5099=CARTESIAN_POINT('',(-0.1025,0.2655,-0.003));
 #5100=CARTESIAN_POINT('',(-0.11,0.325,-0.006));
@@ -5149,9 +5149,9 @@ DATA;
 #5112=CARTESIAN_POINT('',(0.02,0.325,-0.006));
 #5113=CARTESIAN_POINT('',(0.02,0.39,-0.006));
 #5114=CARTESIAN_POINT('',(-0.045,0.39,-0.006));
-#5115=CARTESIAN_POINT('',(-0.1,0.379999999999993,0.551882449586537));
-#5116=CARTESIAN_POINT('',(0.00999999999999989,0.379999999999993,0.551882449586537));
-#5117=CARTESIAN_POINT('',(0.01,0.27,0.551882449586537));
+#5115=CARTESIAN_POINT('',(-0.1,0.379999999999993,0.551865581675267));
+#5116=CARTESIAN_POINT('',(0.00999999999999989,0.379999999999993,0.551865581675267));
+#5117=CARTESIAN_POINT('',(0.01,0.27,0.551865581675267));
 #5118=CARTESIAN_POINT('',(-0.09505,0.2765,0.002));
 #5119=CARTESIAN_POINT('',(-0.09505,0.2765,0.002));
 #5120=CARTESIAN_POINT('',(-0.09155,0.2765,0.002));
@@ -5352,7 +5352,7 @@ SI_UNIT($,.METRE.)
 #5293=PRODUCT_CATEGORY('','');
 #5294=PRODUCT_CONTEXT('',#5296,'mechanical');
 #5295=APPLICATION_PROTOCOL_DEFINITION('international standard',
-'ap242_managed_model_based_3d_engineering',2011,#5296);
+'ap242_managed_model_based_3d_engineering',2020,#5296);
 #5296=APPLICATION_CONTEXT('managed model based 3d engineering');
 ENDSEC;
 END-ISO-10303-21;

@@ -6,23 +6,23 @@ HEADER;
 /* OPTION: using custom renumber hook */
 
 FILE_DESCRIPTION(
-/* description */ ('STEP AP242',
+/* description */ ('STEP AP242 Edition 2',
 'CAx-IF Rec.Pracs.---Representation and Presentation of Product Manufa
 cturing Information (PMI)---4.0---2014-10-13',
-'CAx-IF Rec.Pracs.---3D Tessellated Geometry---0.4---2014-09-14','2;1'),
-
+'CAx-IF Rec.Pracs.---3D Tessellated Geometry---0.4---2014-09-14','2;1',
+'CAx-IF Rec.Pracs.---User Defined Attributes---1.5---2016-08-15'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '681beebd9417a05d63d3892c',
-/* time_stamp */ '2025-05-07T23:37:33Z',
+/* name */ 'Base and Z Axis - 2x2 Screw Plate - 2mm',
+/* time_stamp */ '2026-01-10T06:34:49Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'ONSHAPE BY PTC INC, 1.197',
+/* originating_system */ 'ONSHAPE BY PTC INC, 1.209',
 /* authorisation */ '  ');
 
-FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));
+FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 3 1 4 }'));
 ENDSEC;
 
 DATA;
@@ -326,8 +326,8 @@ DATA;
 #307=CARTESIAN_POINT('',(-0.1135,0.2545,0.022));
 #308=CARTESIAN_POINT('',(-0.1155,0.2545,0.024));
 #309=CARTESIAN_POINT('',(-0.1135,0.2545,0.024));
-#310=CARTESIAN_POINT('',(-0.2127500125,0.2460000125,0.022));
-#311=CARTESIAN_POINT('',(-0.2127500125,0.2460000125,0.024));
+#310=CARTESIAN_POINT('',(-0.2128500125,0.2460000125,0.022));
+#311=CARTESIAN_POINT('',(-0.2128500125,0.2460000125,0.024));
 #312=MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(#185),
 #313);
 #313=(
@@ -365,7 +365,7 @@ SI_UNIT($,.METRE.)
 #324=PRODUCT_CATEGORY('','');
 #325=PRODUCT_CONTEXT('',#327,'mechanical');
 #326=APPLICATION_PROTOCOL_DEFINITION('international standard',
-'ap242_managed_model_based_3d_engineering',2011,#327);
+'ap242_managed_model_based_3d_engineering',2020,#327);
 #327=APPLICATION_CONTEXT('managed model based 3d engineering');
 ENDSEC;
 END-ISO-10303-21;

@@ -6,23 +6,23 @@ HEADER;
 /* OPTION: using custom renumber hook */
 
 FILE_DESCRIPTION(
-/* description */ ('STEP AP242',
+/* description */ ('STEP AP242 Edition 2',
 'CAx-IF Rec.Pracs.---Representation and Presentation of Product Manufa
 cturing Information (PMI)---4.0---2014-10-13',
-'CAx-IF Rec.Pracs.---3D Tessellated Geometry---0.4---2014-09-14','2;1'),
-
+'CAx-IF Rec.Pracs.---3D Tessellated Geometry---0.4---2014-09-14','2;1',
+'CAx-IF Rec.Pracs.---User Defined Attributes---1.5---2016-08-15'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '681bee0a9417a05d63d380d8',
-/* time_stamp */ '2025-05-07T23:34:34Z',
+/* name */ 'Base and Z Axis - 2x2 Screw Plate - 4mm',
+/* time_stamp */ '2026-01-10T06:34:49Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'ONSHAPE BY PTC INC, 1.197',
+/* originating_system */ 'ONSHAPE BY PTC INC, 1.209',
 /* authorisation */ '  ');
 
-FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));
+FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 3 1 4 }'));
 ENDSEC;
 
 DATA;
@@ -526,7 +526,7 @@ SI_UNIT($,.METRE.)
 #484=PRODUCT_CATEGORY('','');
 #485=PRODUCT_CONTEXT('',#487,'mechanical');
 #486=APPLICATION_PROTOCOL_DEFINITION('international standard',
-'ap242_managed_model_based_3d_engineering',2011,#487);
+'ap242_managed_model_based_3d_engineering',2020,#487);
 #487=APPLICATION_CONTEXT('managed model based 3d engineering');
 ENDSEC;
 END-ISO-10303-21;
