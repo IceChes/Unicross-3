@@ -39,9 +39,14 @@ Assuming 0.3mm layer height and 0.4 nozzle.
 
 Jigs are disposable.
 
-### Panels - all except screw plates
+### Panels - all except screw plates and fan retainer
 - Quantity: 1 of each item
 - Settings: Nonstructural
+- Filament: Any
+
+### Panels - fan retainer
+- Quantity: 1
+- Settings: 100% infill solid
 - Filament: Any
 
 ### Panels - screw plates
@@ -58,18 +63,18 @@ Jigs are disposable.
 - Settings: At least minimal structural settings
 - Filament: Recommended ABS or PETG, or another non-creeping filament resistant to 70C or so
 
+### Toolhead - toolhead hotend clamp
+- Quantity: 1
+- Settings: At least minimal structural settings
+- Filament: Recommended ABS or PETG, or another non-creeping filament resistant to 70C or so
+
 ### Toolhead - BLTouch mount
 - Quantity: 1
 - Settings: 100% infill solid
 - Filament: Any filament resistant to 70C
 
-### 4010 cover
-- Quantity: 1
-- Settings: Nonstructural
-- Filament: Any
-
-### Corner bracket
-- Quantity: 14
+### Fastening plate
+- Quantity: 11 recommended, but you can bolt these on in loads of places
 - Settings: 100% infill solid
 - Filament: Any non-creeping filament
 
@@ -83,9 +88,19 @@ Jigs are disposable.
 - Settings: Nonstructural
 - Filament: Any
 
-### Leadscrew support
-- Quantity: 2
+### Idler bracket
+- Quantity: 4
+- Settings: 100% infill solid
+- Filament: Any non-creeping filament
+
+### Idler cover
+- Quantity: 4
 - Settings: At least minimal structural settings
+- Filament: Any
+
+### Large corner bracket
+- Quantity: See bracket guide
+- Settings: 100% infill solid
 - Filament: Any non-creeping filament
 
 ### Long mount
@@ -93,7 +108,7 @@ Jigs are disposable.
 - Settings: At least minimal structural settings
 - Filament: Recommended ABS or PETG, or another non-creeping filament resistant to 70C or so
 
-### PSU fan duct
+### PSU fan duct (optional part)
 - Quantity: 1
 - Settings: Nonstructural
 - Filament: Any
@@ -103,8 +118,13 @@ Jigs are disposable.
 - Settings: At least minimal structural settings
 - Filament: Any non-creeping filament
 
+### Rod block with zip tie
+- Quantity: 1
+- Settings: At least minimal structural settings
+- Filament: Any non-creeping filament
+
 ### Rod block
-- Quantity: 4
+- Quantity: 3
 - Settings: At least minimal structural settings
 - Filament: Any non-creeping filament
 
@@ -113,18 +133,8 @@ Jigs are disposable.
 - Settings: At least minimal structural settings
 - Filament: Recommended ABS or PETG, or another non-creeping filament resistant to 70C or so
 
-### Tensioner constraint
-- Quantity: 4
-- Settings: At least minimal structural settings
-- Filament: Any non-creeping filament
-
-### Top bracket plate
-- Quantity: 11
-- Settings: At least minimal structural settings
-- Filament: Any non-creeping filament
-
-### XY tensioner
-- Quantity: 4
+### Small corner bracket
+- Quantity: See bracket guide
 - Settings: 100% infill solid
 - Filament: Any non-creeping filament
 
