@@ -1,5 +1,4 @@
-# UNDER CONSTRUCTION
-Assume nothing here is real and everything can/will change.
+# Unicross 3 Printed Parts guide
 This is an extensive guide on printing the Unicross 3 components. 
 
 ---
@@ -24,6 +23,8 @@ Assuming 0.3mm layer height and 0.4 nozzle.
 - 3 top layers
 - 2 bottom layers
 - 10% any infill
+
+I highly recommend enabling the option in your slicer that adds a sparse top layer before the true top layer printing starts. This will dramatically improve panel quality.
 
 **Settings for other filaments are up to the user's discretion to decide.**
 
@@ -147,3 +148,4 @@ Jigs are disposable.
 - Quantity: 4
 - Settings: At least minimal structural settings
 - Filament: Any non-creeping filament
+
