@@ -16,6 +16,5 @@ This project is IN PROGRESS and subject to change at any time without notice.
 - Runs Klipper
 
 # Coming eventually:
-- Assembly guide
-- BOM
+- Prusaslicer configs
 - Klipper configs
