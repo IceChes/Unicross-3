@@ -53,7 +53,7 @@ It has them. Requires bending pins for assembly, but it's not actually that big 
 The toolhead is a very simple plastic brick, designed for simplicity and durability. There isn't much to say here. 
 
 # Questions you may have
-### I don't like <thing>. Can it be changed?
+### I don't like something. Can it be changed?
 Sure. Just copy the Onshape document or download the assembly STEP and make whatever changes you want. I would love if you'd also DM me @iceches on Discord and I'll see if I can implement it in the main repository.
 
 ### What can I print?
